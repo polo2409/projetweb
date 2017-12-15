@@ -2,10 +2,11 @@ body
 {
 	padding:0px;
 	margin:0px;
+	background-color:#e2e1ea;
 }
 header input
 {
-	display:inline;
+	display:inline-block;
 	position:relative;
 	bottom:45%;
 	left:25%;
@@ -14,6 +15,7 @@ header input
 	font-size:20pt;
 	border-radius:0.3em;
 	margin-right:20px;
+	border-style:none;
 
 }
 header img
@@ -41,23 +43,23 @@ header section
 }
 #loupe
 {
-	display:inline;
+	display:inline-block;
 	position:relative;
-	bottom:45%;
-	left:25%;
+	bottom:48%;
+	left:20%;
 	width:3%;
 	height:25%;
 	border-radius:0.5em;
 	margin:0px;
-	background-color:#d8c8bc;
+	background-color:white;
 	border-style:none;
 }
 #info
 {
-	display:inline;
+	display:inline-block;
 	position:relative;
 	bottom:45%;
-	left:42%;
+	left:40%;
 	width:3%;
 	height:25%;
 	border-radius:0.5em;
@@ -67,10 +69,10 @@ header section
 }
 #panier
 {
-	display:inline;
+	display:inline-block;
 	position:relative;
 	bottom:45%;
-	left:35%;
+	left:32%;
 	width:3%;
 	height:25%;
 	border-radius:0.5em;
@@ -94,11 +96,13 @@ h2
 	text-align:center;
 	color:#ed0000;
 }
+
 #rubrique
 {
+	position:relative;
+	display:inline-block;
 	width:10%;
-	height:100%;
-	margin:0px;
+	margin-right:50px;
 }
 ul
 {
@@ -119,4 +123,59 @@ li button
 	border-top-color:#e2ccbc;
 	border-bottom-color:#e2ccbc;
 	background-color:#d8c8bc;
+	border-radius:0.5em;
+	margin:2px;
+}
+.flash
+{
+	display:inline-block;
+	position:relative;
+	padding:5px;
+	width:40%;
+	height:60%;
+	border-style:solid;
+	border-color:#c0c0c4;
+	border-width:1px;
+	border-radius:1em;
+	margin:20px;
+}
+#promos
+{
+	position:relative;
+	display:inline-block;
+	width:85%;
+	height:30%;
+	vertical-align:top;
+}
+.corps
+{
+	flex-direction:row;
+}
+footer
+{
+	width:100%;
+	background-color:black;
+}
+footer section
+{
+	display:inline-block;
+	position:relative;
+	color:white;
+	width:30%;
+	vertical-align:middle;
+	text-align:center;
+	padding:10px;
+	
+}
+#facebook
+{
+	border-right-style:solid;
+	border-left-style:solid;
+	border-color:white;
+	padding:10px;
+}
+i
+{
+	margin-left:5px;
+	margin-right:5px;
 }
