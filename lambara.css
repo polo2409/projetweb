@@ -1,8 +1,64 @@
+body
+{
+	padding:0px;
+	margin:0px;
+}
+header input
+{
+	display:inline;
+	position:relative;
+	bottom:45%;
+	left:25%;
+	width:20%;
+	height:25%;
+	font-size:20pt;
+	border-radius:0.3em;
+	margin-right:20px;
+
+}
+header img
+{
+	width:110px;
+	height:110px;
+	padding:0px;
+	margin-right:50px;
+}
 header
 {
+	padding:0px;
 	width:100%;
-	height:200px;
-	text-align:center;
+	height:110px;
 	border-bottom:solid;
 	border-color:red;
+	background-image: url("assets/fondheader.jpg"); 
+	background-repeat: repeat-x;
+}
+header section
+{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+header button
+{
+	display:inline;
+	position:relative;
+	bottom:45%;
+	left:25%;
+	width:3%;
+	height:25%;
+	border-radius:0.5em;
+	margin:0px;
+	background-color:#d8c8bc;
+	border-style:none;
+}
+h1
+{
+	position:relative;
+	display:inline;
+	font-size:50pt;
+	bottom:33%;
+	left:15%;
+	color:#ed0000;
+	font-family:Bodony;
 }
