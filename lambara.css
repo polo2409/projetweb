@@ -39,7 +39,7 @@ header section
 	height:100%;
 	margin:0px;
 }
-header button
+#loupe
 {
 	display:inline;
 	position:relative;
@@ -52,6 +52,33 @@ header button
 	background-color:#d8c8bc;
 	border-style:none;
 }
+#info
+{
+	display:inline;
+	position:relative;
+	bottom:45%;
+	left:42%;
+	width:3%;
+	height:25%;
+	border-radius:0.5em;
+	margin:0px;
+	background-color:#d8c8bc;
+	border-style:none;
+}
+#panier
+{
+	display:inline;
+	position:relative;
+	bottom:45%;
+	left:35%;
+	width:3%;
+	height:25%;
+	border-radius:0.5em;
+	margin:0px;
+	background-color:#d8c8bc;
+	border-style:none;
+}
+
 h1
 {
 	position:relative;
@@ -61,4 +88,35 @@ h1
 	left:15%;
 	color:#ed0000;
 	font-family:Bodony;
+}
+h2
+{
+	text-align:center;
+	color:#ed0000;
+}
+#rubrique
+{
+	width:10%;
+	height:100%;
+	margin:0px;
+}
+ul
+{
+	list-style:none;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	height:100%;
+}
+li button
+{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	height:40px;
+	border-left-color:#d8c8bc;
+	border-right-color:#d8c8bc;
+	border-top-color:#e2ccbc;
+	border-bottom-color:#e2ccbc;
+	background-color:#d8c8bc;
 }
