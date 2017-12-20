@@ -111,6 +111,13 @@ footer section
 	padding:10px;
 	
 }
+#facebook
+{
+	border-right-style:solid;
+	border-left-style:solid;
+	border-color:white;
+	padding:10px;
+}
 a
 {
 	text-decoration:none;

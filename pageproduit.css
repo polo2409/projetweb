@@ -109,7 +109,15 @@ footer section
 	vertical-align:middle;
 	text-align:center;
 	padding:10px;
+	border-style:
 	
+}
+#facebook
+{
+	border-right-style:solid;
+	border-left-style:solid;
+	border-color:white;
+	padding:10px;
 }
 a
 {
@@ -138,10 +146,129 @@ i
 {
 	position:relative;
 	display:inline-block;
+	margin:20px;
+	margin-left:10%;
 }
 #titreproduit
 {
 	position:relative;
 	display:inline-block;
 	color:white;
+	bottom:150px;
+	font-size:20pt;
+}
+#ancienprix
+{
+	position:relative;
+	display:inline-block;
+	color:white;
+	text-decoration:line-through;
+	font-size:17pt;
+	margin-right:20px;
+	bottom:100px;
+	right:400px;
+}
+#newprix
+{
+	position:relative;
+	display:inline-block;
+	color:white;
+	font-size:17pt;
+	bottom:100px;
+	right:400px;
+	border-style:solid;
+	border-color:red;
+	padding:5px;
+}	
+#ajoutpanier
+{
+	position:fixed;
+	display:inline-block;
+	right:50px;
+	top:150px;
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	border-radius:1em;
+	text-align:center;
+}
+#ajoutpanier div
+{
+	margin:20px;
+	color:white;
+	font-size:20pt;
+}
+div button
+{
+	background-color:#f0c14b;
+	width:80%;
+	height:50px;
+	border-style:none;
+	border-radius:1em;
+}
+#description
+{
+	margin-left:10%;
+	margin-right:20%;
+
+}
+#descriptif
+{
+	border-bottom-style:solid;
+	border-color:grey;
+	border-width:1px;
+}
+#commentaire
+{
+	margin-top:50px;
+}
+#commentaire img
+{
+	width:70px;
+	height:70px;
+	border-radius:2em;
+	margin-right:50px;
+	margin-left:50px;
+	margin-bottom:50px;
+	position:relative;
+	display:inline-block;
+}
+#commentaire input
+{
+	bottom:75px;
+	position:relative;
+	display:inline-block;
+	margin-right:20px;
+	height:30px;
+	width:50%;
+}
+#commentaire button
+{
+	border-style:none;
+	position:relative;
+	display:inline-block;
+	border-radius:0.5em;
+	bottom:75px;
+}
+#commentaire div h3
+{
+	position:relative;
+	display:inline-block;
+	bottom:70px;
+	font-size:15pt;
+	color:#404142;
+}
+.commentaire p
+{
+	margin-left:50px;
+	position:relative;
+	display:inline-block;
+	border-style:solid;
+	border-width:2px;
+	border-color:grey;
+	background-color:white;
+	width:40%;
+	height:20%;
+	padding:10px;
+	bottom:70px;
 }
