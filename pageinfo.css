@@ -55,11 +55,7 @@ h1
 	color:#ed0000;
 	font-family:Bodony;
 }
-h2
-{
-	text-align:center;
-	color:#ed0000;
-}
+
 #loupe
 {
 	display:inline-block;
@@ -132,103 +128,31 @@ i
 	margin-left:5px;
 	margin-right:5px;
 }
-#payement{
-	position:relative;
-	display:inline-block;
-	width:70%;
-	text-align:center;
-}
-#payement div{
-	margin-bottom:20px;
-}
-#recap{
-	position:fixed;
-	display:inline-block;
-	width:25%;
-	height:50%;
-	right:5%;
-	top:15%;
-	border-style:solid;
-	border-width:1px;
-	border-radius:1em;
-	border-color:grey;
-	padding:10px;
-}
-.infos{
+.question
+{
+	margin-left:20px;
+	margin-right:20px;
 	position:relative;
 	display:inline-block;
 	width:100%;
-	text-align:center;
-	color:white;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-.infos input{
-	margin-left:20px;
-}
-#visa{
-	position:relative;
-	display:inline-block;
-	width:25%;
-
-}
-#mastercard{
-	position:relative;
-	display:inline-block;
-	width:25%;
-}
-#paypal{
-	position:relative;
-	display:inline-block;
-	width:25%;
-}
-#visa div{
-	display:none;
-	color:white;
-	text-align:center;
-}
-#visa:hover div{
-	display:block;
-}
-#mastercard div{
-	display:none;
-	color:white;
-	text-align:center;
-}
-#mastercard:hover div{
-	display:block;
-}
-#paypal div{
-	display:none;
-	color:white;
-	text-align:center;
-}
-#paypal:hover div{
-	display:block;
-}
-#fin{
-	text-align:center;
-	color:white;
-	margin:0px;
-}
-span{
-	margin:30px;
-	position:relative;
-	display:inline-block;
-	width:10%;
-	height:10%;
-	background-color:#062b63;
-	border-style:solid;
+	height:30%;
+	border-bottom-style:solid;
 	border-width:1px;
-	border-radius:0.5em;
-	border-color:white;
-
-}
-#fin p{
-	display:none;
+	border-color:grey;
 	color:white;
-	text-align:center;
 }
-#fin:hover p{
-	display:block;	
+.reponse
+{
+	margin-left:20px;
+	margin-right:20px;
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height:30%;
+	padding:10px;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-width:1px;
+	border-color:grey;
+	color:white;
 }
