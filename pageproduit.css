@@ -243,6 +243,11 @@ a
 {
 	text-decoration:none;
 }
+a:visited
+{
+	text-decoration:none;
+	color:black;
+}
 i
 {
 	margin-left:5px;
@@ -262,12 +267,9 @@ i
 	background-repeat:repeat-y;
 	background-size:100%;
 }
-#descriptif p img
+#descriptif div
 {
-	position:relative;
-	display:inline-block;
-	margin:50px;
-	margin-left:10%;
+	text-align:center;
 }
 #titreproduit
 {
